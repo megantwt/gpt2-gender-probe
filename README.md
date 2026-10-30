@@ -34,6 +34,10 @@ Bias-audit laws like NYC Local Law 144 test a hiring tool's *outputs*. One limit
 - Gender is operationalised as a binary signal from first names and pronouns.
 - The dataset is small and templated, and GPT-2 small is much smaller than models used in hiring tools today.
 
+## Background
+
+This project builds on my earlier paper, Anti-Discrimination in the Blackbox of AI Employment Tools, which compared the outcome-based audits of NYC Local Law 144 with the governance-based approach of the EU AI Act. That analysis was limited by not being able to look inside the models. This project is a first attempt to do that.
+
 ## Why this matters for regulation
 
 - Output-based audits like those under Local Law 144 can only detect bias that appears in a tool’s decisions on the sample tested.
